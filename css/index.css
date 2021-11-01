@@ -49,7 +49,7 @@ table {
 *{
     box-sizing:border-box;
     max-width:100%; /*you can never be bigger than your parent - this is going to stop that dreaded horizontal scroll bar*/
-    border:1px solid grey;
+  
 }
 /*general styles*/
 html{
@@ -225,10 +225,13 @@ footer h3{
     }
     #about{
         justify-content:flex-start;
+        background-image: none;
+        background-color: lightgray;
+        height: auto;
     }
     #about div{
-        margin-left:10%;
-        width:40%;
+        margin:0%;
+        width:80%;
     }
     .container{
         flex-direction:column;
